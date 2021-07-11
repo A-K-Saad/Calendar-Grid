@@ -1,0 +1,42 @@
+body{
+    font-family: 'Quattrocento', serif;
+    align-items: center;
+    justify-content: center;
+    background: url(images/background.jpg);
+    /* background: url(https://wallpapercave.com/wp/wp2620447.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 70%;
+    margin: 80px auto;
+}
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2em repeat(5, 1fr);
+    grid-gap: 1em;
+    height: 480px;
+}
+.date{
+    background: #113151;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+}
+.day{
+    background: #d8dce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+.off-day{
+    color: #13db8e;
+}
+.others{
+    background: #d8dce0;
+}
