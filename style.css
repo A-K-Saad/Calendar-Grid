@@ -2,8 +2,8 @@ body{
     font-family: 'Quattrocento', serif;
     align-items: center;
     justify-content: center;
-    background: url(images/background.jpg);
-    /* background: url(https://wallpapercave.com/wp/wp2620447.jpg); */
+    /* background: url(images/background.jpg); */
+    background: url(http://24.media.tumblr.com/tumblr_m8ys3jnWct1qdc388o1_500.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
